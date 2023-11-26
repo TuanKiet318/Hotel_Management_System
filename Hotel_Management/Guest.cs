@@ -7,11 +7,17 @@ namespace Hotel_Management
 {
     public class Guest : Person
     {
-        private int invoice;
+        private float invoice;
+
+        public float Invoice { get => invoice; set => invoice = value; }
 
         public Guest()
         {
-            throw new System.NotImplementedException();
+        }
+        public Guest(string name, DateTime birthDay, int number, bool gender, string address, string id, float invoice) :
+            base(name, birthDay, number, gender, address, id)
+        {
+           Invoice = invoice;
         }
 
         public void MakeReservation()

@@ -15,6 +15,11 @@ namespace Hotel_Management
         {
         }
 
+        public Manager(string name, DateTime birthDay, int number, bool gender, string address, string id, float salary): 
+            base(name, birthDay, number, gender, address, id)
+        {
+            Salary = salary;
+        }
         public override void PrintDetails()
         {
         }

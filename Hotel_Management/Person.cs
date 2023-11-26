@@ -11,14 +11,14 @@ namespace Hotel_Management
         private DateTime birthDay;
         private int number;
         private bool gender;
-        private int address;
+        private string address;
         private string id;
 
         public Person()
         {
         }
 
-        public Person(string name, DateTime birthDay, int number, bool gender, int address, string id)
+        public Person(string name, DateTime birthDay, int number, bool gender, string address, string id)
         {
             this.Name = name;
             this.BirthDay = birthDay;
@@ -32,7 +32,7 @@ namespace Hotel_Management
         public DateTime BirthDay { get => birthDay; set => birthDay = value; }
         public int Number { get => number; set => number = value; }
         public bool Gender { get => gender; set => gender = value; }
-        public int Address { get => address; set => address = value; }
+        public String Address { get => address; set => address = value; }
         public string Id { get => id; set => id = value; }
 
         public abstract void PrintDetails();

@@ -7,12 +7,19 @@ namespace Hotel_Management
 {
     public class Receptionist : Person
     {
-        private int salary;
+        private float salary;
 
         public Receptionist()
         {
-            throw new System.NotImplementedException();
         }
+
+        public Receptionist(string name, DateTime birthDay, int number, bool gender, string address, string id, float salary) :
+            base(name, birthDay, number, gender, address, id)
+        {
+            Salary = salary;
+        }
+
+        public float Salary { get => salary; set => salary = value; }
 
         public void Check_in()
         {
