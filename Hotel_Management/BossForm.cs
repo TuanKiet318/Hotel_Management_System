@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,8 @@ namespace Hotel_Management
         DatabaseManagementDataContext db;
         private void BossForm_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(name);
+            //MessageBox.Show(name);
+            nameAcc_lbl.Text = name;
             mr = new M_R();
             db = new DatabaseManagementDataContext();
             var list = (from s in db.M_Rs select s).ToList();

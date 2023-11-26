@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Hotel_Management_System", "Hotel_Management_System\Hotel_Management_System.ssmssqlproj", "{CE84B73F-1876-437C-803F-336DAC830707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE84B73F-1876-437C-803F-336DAC830707}.Default|Default.ActiveCfg = Default
+		{72BBB675-529F-4971-944C-D9B02B139046}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C42673FF-AE0E-44B2-B834-589D3F205CBA}
+	EndGlobalSection
+EndGlobal

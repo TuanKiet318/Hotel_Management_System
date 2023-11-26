@@ -51,11 +51,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.nameAcc_lbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -264,6 +266,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.nameAcc_lbl);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(313, 129);
@@ -286,6 +289,15 @@
             this.dataGridView1.Size = new System.Drawing.Size(1023, 444);
             this.dataGridView1.TabIndex = 0;
             // 
+            // nameAcc_lbl
+            // 
+            this.nameAcc_lbl.AutoSize = true;
+            this.nameAcc_lbl.Location = new System.Drawing.Point(116, 92);
+            this.nameAcc_lbl.Name = "nameAcc_lbl";
+            this.nameAcc_lbl.Size = new System.Drawing.Size(44, 16);
+            this.nameAcc_lbl.TabIndex = 1;
+            this.nameAcc_lbl.Text = "label8";
+            // 
             // BossForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -302,6 +314,8 @@
             this.splitContainer1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -332,5 +346,6 @@
         private System.Windows.Forms.TextBox address_tb;
         private System.Windows.Forms.TextBox id_tb;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label nameAcc_lbl;
     }
 }
